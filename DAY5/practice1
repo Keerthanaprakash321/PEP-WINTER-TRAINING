@@ -1,0 +1,20 @@
+def add(a, b):
+    return a + b
+
+print(add(5, 3))
+
+# function that takes argument
+def func2[arg1, arg2]:
+print(arg1," ",arg2)
+
+#function that returns a value
+def cube(x):
+    return x*x*x
+
+#fuction for default value for an argument
+def power(num, x=1):
+    result = result * num
+    return result
+#function with variable number of arguments
+def multi_add(*args):
+    
