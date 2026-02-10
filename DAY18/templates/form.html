@@ -1,0 +1,19 @@
+<!-- <form action="" method="GET">
+    <label for="your_name">Your name:</label>
+    <input id="your_name" type="text" name="your_name">
+    <label for="your_email">Your email:</label>
+    <input id="your_email" type="text" name="your_email">
+
+    <input type="submit" value="OK">
+</form> -->
+
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <label for="title">Title:</label>
+    <input id="title" type="text" name="title">
+    <label for="Description">Description:</label>
+    <input id="Description" type="text" name="Description">
+    <input type="submit" value="OK">
+</form>
